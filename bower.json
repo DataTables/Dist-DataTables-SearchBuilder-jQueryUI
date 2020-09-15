@@ -1,5 +1,5 @@
 {
-    "name": "datatables.net-searchbuilder-bs",
+    "name": "datatables.net-searchbuilder-jqui",
     "description": "Advanced Search Builder for DataTables with styling for jQuery UI",
     "main": [
         "js/searchBuilder.jqueryui.js",
