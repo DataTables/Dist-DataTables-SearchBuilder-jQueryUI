@@ -1,33 +1,49 @@
 {
-    "name": "datatables.net-searchbuilder-ju",
+    "name": "datatables.net-searchbuilder-jqui",
+    "description": "SearchBuilder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "main": "js/searchBuilder.jqueryui.js",
+    "style": "css/searchBuilder.jqueryui.css",
     "version": "1.0.1",
-    "description": "Advanced Search Builder for DataTables with styling for jQuery UI",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "main": "js/searchBuilder.jqueryui.js",
-    "style": "css/searchBuilder.jqueryui.css",
     "keywords": [
-        "Search",
-        "Filtering",
-        "DataTables",
+        "SearchBuilder",
+ "Filtering",
+ "Search",
+        "jQuery UI",
+ "jQueryUI",
+        "Datatables",
         "jQuery",
         "table",
-        "jQueryUI"
+        "filter",
+        "sort"
     ],
+    "dependencies": {
+        "datatables.net-searchbuilder": ">=1.0.1",
+        "datatables.net-jqui": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
     "homepage": "https://datatables.net",
     "bugs": "https://datatables.net/forums",
     "license": "MIT",
-    "author": {
-        "name": "SpryMedia ltd",
-        "url": "http://datatables.net"
-    },
-    "dependencies": {
-        "jquery": ">=1.7"
-    },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/DataTables/Dist-DataTables-SearchBuilder-jqueryUI.git"
+        "url": "https://github.com/DataTables/Dist-DataTables-SearchBuilder-jQueryUI.git"
     }
 }

@@ -1,3 +1,6 @@
+/*! JQuery ui ui integration for DataTables' SearchBuilder
+ * ©2016 SpryMedia Ltd - datatables.net/license
+ */
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD
@@ -12,9 +15,11 @@
                 root = window;
             }
             if (!$ || !$.fn.dataTable) {
+                // eslint-disable-next-line @typescript-eslint/no-var-requires
                 $ = require('datatables.net-ju')(root, $).$;
             }
             if (!$.fn.dataTable.searchBuilder) {
+                // eslint-disable-next-line @typescript-eslint/no-var-requires
                 require('datatables.net-searchbuilder')(root, $);
             }
             return factory($, root, root.document);
@@ -26,16 +31,16 @@
     }
 }(function ($, window, document) {
     'use strict';
-    var DataTable = $.fn.dataTable;
-    $.extend(true, DataTable.SearchBuilder.classes, {
+    var dataTable = $.fn.dataTable;
+    $.extend(true, dataTable.SearchBuilder.classes, {
         clearAll: 'ui-button ui-corner-all ui-widget dtsb-clearAll'
     });
-    $.extend(true, DataTable.Group.classes, {
+    $.extend(true, dataTable.Group.classes, {
         add: 'ui-button ui-corner-all ui-widget dtsb-add',
         clearGroup: 'ui-button ui-corner-all ui-widget dtsb-clearGroup',
         logic: 'ui-button ui-corner-all ui-widget dtsb-logic'
     });
-    $.extend(true, DataTable.Criteria.classes, {
+    $.extend(true, dataTable.Criteria.classes, {
         condition: 'ui-selectmenu-button ui-button ui-widget ui-selectmenu-button-closed ui-corner-all dtsb-condition',
         data: 'ui-selectmenu-button ui-button ui-widget ui-selectmenu-button-closed ui-corner-all dtsb-data',
         "delete": 'ui-button ui-corner-all ui-widget dtsb-delete',
@@ -43,5 +48,5 @@
         right: 'ui-button ui-corner-all ui-widget dtsb-right',
         value: 'ui-selectmenu-button ui-button ui-widget ui-selectmenu-button-closed ui-corner-all dtsb-value'
     });
-    return DataTable.searchPanes;
+    return dataTable.searchPanes;
 }));

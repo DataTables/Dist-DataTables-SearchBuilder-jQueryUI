@@ -1,27 +1,35 @@
-
 {
-	"name": "datatables.net/datatables.net-searchbuilder-ju",
-	"version": "1.0.0",
-	"description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table. This is the SearchBuilder extension for DataTables.", 
-	"homepage": "http://www.datatables.net/",
-	"authors": [{
-		"name": "SpryMedia",
-		"homepage": "https://datatables.net"
-	}], 
-	"license": [
-		"MIT"
-	],
+    "version": "1.0.1",
+    "name": "datatables.net/datatables.net-searchbuilder-jqui",
+    "description": "SearchBuilder adds user defined complex search to the DataTable with the capability to search the DataTable by creating groups and conditions. This is SearchBuilder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "support": {
+        "forum": "https://datatables.net/forums",
+        "source": "https://github.com/DataTables/Dist-DataTables-SearchBuilder-jQueryUI"
+    },
+    "homepage": "http://www.datatables.net/",
+    "authors": [
+        {
+            "name": "SpryMedia",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
     "prefer-stable": true,
     "minimum-stability": "dev",
-	"support": {
-		"forum": "https://datatables.net/forums",
-		"source": "https://github.com/DataTables/Dist-DataTables-SearchBuilder-jqueryUI/"
-    },
-    "keywords": ["DataTables", "jQuery", "table", "searchbuilder", "jqueryUI"],
+    "keywords": [
+        "SearchBuilder",
+ "Filtering",
+ "Search",
+        "jQuery UI",
+ "jQueryUI",
+        "Datatables",
+        "jQuery",
+        "table"
+    ],
     "require": {
-        "components/jquery":">=3.5.1",
-        "datatables.net/datatables.net":">=1.10.15",
-        "datatables.net/datatables.net-searchbuilder":">=1.0.0",
-        "components/jqueryui": "1.*"
+        "datatables.net/datatables.net-searchbuilder": ">=1.0.1",
+        "datatables.net/datatables.net-jqui": ">=1.10.24"
     }
 }
