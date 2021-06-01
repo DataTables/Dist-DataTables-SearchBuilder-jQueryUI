@@ -3,6 +3,7 @@
     "description": "SearchBuilder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/searchBuilder.jqueryui.js",
     "style": "css/searchBuilder.jqueryui.css",
+    "types": "./types/searchBuilder.jqueryui.d.ts",
     "version": "1.0.1",
     "files": [
         "css/**/*.css",
