@@ -4,17 +4,17 @@
     "main": "js/searchBuilder.jqueryui.js",
     "style": "css/searchBuilder.jqueryui.css",
     "types": "./types/searchBuilder.jqueryui.d.ts",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "SearchBuilder",
- "Filtering",
- "Search",
+        "Filtering",
+        "Search",
         "jQuery UI",
- "jQueryUI",
+        "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -22,9 +22,9 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchbuilder": ">=1.0.1",
-        "datatables.net-jqui": ">=1.10.24",
-        "jquery": ">=1.7"
+        "jquery": ">=1.7",
+        "datatables.net-jqui": "^1.10.15",
+        "datatables.net-searchbuilder": "1.1.0"
     },
     "moduleType": [
         "globals",
