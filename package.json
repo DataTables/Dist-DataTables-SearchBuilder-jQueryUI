@@ -12,10 +12,10 @@
     ],
     "keywords": [
         "SearchBuilder",
-        "Filtering",
-        "Search",
+ "Filtering",
+ "Search",
         "jQuery UI",
-        "jQueryUI",
+ "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchbuilder": ">=1.1.0",
-        "datatables.net-jqui": ">=1.10.25",
+        "datatables.net-searchbuilder": ">=1.2.2",
+        "datatables.net-jqui": ">=1.11.3",
         "jquery": ">=1.7"
     },
     "moduleType": [
