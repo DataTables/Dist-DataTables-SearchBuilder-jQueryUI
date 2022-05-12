@@ -4,7 +4,7 @@
     "main": "js/searchBuilder.jqueryui.js",
     "style": "css/searchBuilder.jqueryui.css",
     "types": "./types/searchBuilder.jqueryui.d.ts",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
