@@ -3,8 +3,8 @@
  */
 
 import $ from 'jquery';
-import DataTable from 'datatables.net-ju';
-import 'datatables.net-searchbuilder';
+import DataTable from 'datatables.net-jqui';
+import SearchBuilder from 'datatables.net-searchbuilder';
 
 
 $.extend(true, DataTable.SearchBuilder.classes, {
