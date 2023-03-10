@@ -6,7 +6,6 @@ import $ from 'jquery';
 import DataTable from 'datatables.net-jqui';
 import SearchBuilder from 'datatables.net-searchbuilder';
 
-
 $.extend(true, DataTable.SearchBuilder.classes, {
     clearAll: 'ui-button ui-corner-all ui-widget dtsb-clearAll'
 });
