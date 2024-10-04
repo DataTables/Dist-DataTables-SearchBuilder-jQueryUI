@@ -5,7 +5,7 @@
     "module": "js/searchBuilder.jqueryui.mjs",
     "style": "css/searchBuilder.jqueryui.css",
     "types": "./types/searchBuilder.jqueryui.d.ts",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -25,7 +25,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchbuilder": "1.8.0",
+        "datatables.net-searchbuilder": "1.8.1",
         "datatables.net-jqui": "^2.1",
         "jquery": ">=1.7"
     },
