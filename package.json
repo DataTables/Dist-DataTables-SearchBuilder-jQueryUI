@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-searchbuilder-jqui",
     "description": "SearchBuilder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/searchBuilder.jqueryui.js",
-    "module": "js/searchBuilder.jqueryui.mjs",
-    "style": "css/searchBuilder.jqueryui.css",
+    "main": "./js/searchBuilder.jqueryui.js",
+    "module": "./js/searchBuilder.jqueryui.mjs",
+    "style": "./css/searchBuilder.jqueryui.css",
     "types": "./types/searchBuilder.jqueryui.d.ts",
     "version": "2.0.1",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "SearchBuilder",
@@ -37,5 +36,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/SearchBuilder.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/searchBuilder.jqueryui.d.ts",
+            "import": "./js/searchBuilder.jqueryui.mjs",
+            "default": "./js/searchBuilder.jqueryui.mjs",
+            "require": "./js/searchBuilder.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/searchBuilder.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
