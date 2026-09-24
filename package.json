@@ -40,9 +40,10 @@
     "exports": {
         ".": {
             "types": "./types/searchBuilder.jqueryui.d.ts",
+            "style": "./css/searchBuilder.jqueryui.css",
             "import": "./js/searchBuilder.jqueryui.mjs",
-            "default": "./js/searchBuilder.jqueryui.mjs",
-            "require": "./js/searchBuilder.jqueryui.js"
+            "require": "./js/searchBuilder.jqueryui.js",
+            "default": "./js/searchBuilder.jqueryui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
